@@ -10,9 +10,13 @@ body{
 .container1{
   width: 300px;
   border: 15px solid green;
-  padding: 50px;
+  padding: 5%;
   margin: 20px;
+
 }
 .blueline{
   color: blue;
+}
+#gitty{
+  color: #ea2525;
 }
