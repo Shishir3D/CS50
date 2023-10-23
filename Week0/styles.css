@@ -17,9 +17,19 @@ body{
   border: 15px solid green;
   padding: 10px;
   margin: auto;
-
-
+  overflow: auto;
 }
+
+::-webkit-scrollbar{
+  height: 4px;
+  width: 4px;
+  background: gray;
+}
+::-webkit-scrollbar-thumb:horizontal{
+  background: #000;
+  border-radius: 10px;
+}
+
 .blueline{
   color: blue;
 }
