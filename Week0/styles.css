@@ -1,3 +1,7 @@
+.centered{
+  text-align: center;
+}
+
 p{
   font-size: 18px;
   font-weight: bold;
@@ -8,9 +12,10 @@ body{
   color: #ea2525;
 }
 .container1{
+  text-align: center;
   width: 300px;
   border: 15px solid green;
-  padding: 5%;
+  padding: 10px;
   margin: 20px;
 
 }
@@ -19,4 +24,13 @@ body{
 }
 #gitty{
   color: #ea2525;
+}
+
+.yellowline{
+  color: #f414b4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #f12ba2;
+  font-size: 200%;
 }
