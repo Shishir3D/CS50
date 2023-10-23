@@ -13,10 +13,11 @@ body{
 }
 .container1{
   text-align: center;
-  width: 300px;
+  width: 50%;
   border: 15px solid green;
   padding: 10px;
-  margin: 20px;
+  margin: auto;
+
 
 }
 .blueline{
