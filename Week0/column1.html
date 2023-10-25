@@ -1,0 +1,36 @@
+<!-- WAP TO MAKE 2 BY 4 TABLE THAT BECOMES 4 BY 2 TABLE ON SMALL SCREEN AND 1 BY 8 ON EVEN SMALLER SCREEN USING BOOTSTRAP -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Column1</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    .container{
+      background-color: aqua;
+    }
+    .row > div{
+      background-color: blue;
+      border: 2px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">    
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">This is a column.</div>
+      <div class="col-lg-3 col-sm-6">This is a column.</div>
+      <div class="col-lg-3 col-sm-6">This is a column.</div>
+      <div class="col-lg-3 col-sm-6">This is a column.</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">This is a column.</div>
+      <div class="col-lg-3 col-sm-6">This is a column.</div>
+      <div class="col-lg-3 col-sm-6">This is a column.</div>
+      <div class="col-lg-3 col-sm-6">This is a column.</div>
+    </div>
+  </div>
+</body>
+</html>

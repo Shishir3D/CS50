@@ -1,3 +1,4 @@
+<!-- WAP TO CREATE A FORM USING INPUT TYPES OF "text", "password", "submit", "radio" | USE <INPUT list=" "> to make a datalist | MAKE ONLY A SINGLE RADIO BUTTON BE PRESSABLE AT ONE TIME --> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,8 @@
     </div>
     <div>
       <p>What is your favourite color?</p>
-      <input class="radio" type="radio" name="radio">Red
+      <!-- MAKEING THE "name" attribute OF ALL THE RADIO BUTTONS SAME MAKES ONLY A ONE SINLGE RADIO BUTTON BE PRESSABLE AT A TIME | MEANING THAT YOU CANNOT SLECT TWO RADIO BUTTON OPTIONS AT THE SAME TIME-->
+      <input class="radio" type="radio" name="radio">Red 
       <input class="radio" type="radio" name="radio">Blue
       <input class="radio" type="radio" name="radio">Green
       <input type="radio" name="radio">
@@ -24,11 +26,11 @@
     <div class="countries">
       <p>Which country do you live in?</p>
       <input list="country">
-      <datalist id="country">
-        <option value="Nepal">WowNp</option>
-        <option value="China">WowCh</option>
-        <option value="Pakistan">WowPk</option>
-      </datalist>      
+        <datalist id="country">
+          <option value="Nepal">WowNp</option>
+          <option value="China">WowCh</option>
+          <option value="Pakistan">WowPk</option>
+        </datalist>      
     </div>
   </form>
 </body>

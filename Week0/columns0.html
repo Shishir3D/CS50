@@ -1,3 +1,4 @@
+<!-- WAP TO CREATE 6 BOXES THAT RESIZE WITH SCREEN SIZE  USING BOOTSTRAP-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,6 @@
     #ones {
       background-color: yellow;
       border: 3px solid blueviolet;
-      margin-top: 20px;
     }
     .container {
       background-color: aqua;
@@ -22,6 +22,11 @@
 </head>
 <body>
   <div class="container">
+    <div class="row"> <!-- "row" IS A BOOTSTRAP CLASS ALONG WITH "col-4" -->
+      <div id="ones" class="col-4">This is a colums</div>
+      <div id="ones" class="col-4">This is another column</div>
+      <div id="ones" class="col-4">This is yet another column</div>
+    </div>
     <div class="row">
       <div id="ones" class="col-4">This is a colums</div>
       <div id="ones" class="col-4">This is another column</div>
