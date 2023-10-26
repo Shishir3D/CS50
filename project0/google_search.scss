@@ -1,4 +1,62 @@
-.searchbox{
+a {
+  text-decoration: none;
+}
+body {
+  font-family: arial, sans-serif;
+}
+%centerr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.searchbutton {
+  @extend %centerr;
   background-color: #f8f9fa;
-  color: blue;
+  font-size: 14px;
+  color: #202124;
+
+  &:hover {
+    border: 1px solid gray;
+  }
+  top: 155%;
+}
+.barandbutton {
+  @extend %centerr;
+}
+.searchbox {
+  border: 1px solid black;
+  // border-radius: 10px;
+  input {
+    width: 300px;
+    height: 20px;
+  }
+  &hover {
+    border: 1px solid gray;
+  }
+}
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+}
+.image_search_redirect {
+  padding-right: 20px;
+  margin-left: 20px;
+  a {
+    color: #202124;
+  }
+}
+.advanced_search_redirect {
+  margin-right: 20px;
+  a {
+    color: #202124;
+  }
+}
+.google_logo {
+  @extend %centerr;
+  border: 0px solid black;
+  margin-top: -25%;
 }

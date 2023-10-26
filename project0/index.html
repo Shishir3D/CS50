@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Google Search</title>
-    <link rel="stylesheet" href="google_search.css">
-</head>
-<body>  
-  <div>
-    <form action="https://www.google.com/search" method="GET">
-      <input type="text" name="q">
-      <div>
-        <input class="searchbox" type="submit" value="Google Search">
+    <link rel="stylesheet" href="google_search.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <div class="image_search_redirect">
+          <a href="image_search.html">Image Search</a>
+        </div>
+        <div class="advanced_search_redirect">
+          <a href="advanced_search.html">Advanced Search</a>
+        </div>
       </div>
-    </form>
-    <div>
-      <img src="google_logo.png">
+
+      <div class="barandbutton">
+        <div class="google_logo">
+          <img src="google_logo.png" alt="Google" />
+        </div>
+        <form action="https://www.google.com/search" method="GET">
+          <div class="searchbox">
+            <input type="text" name="q" />
+          </div>
+          <div class="searchbutton">
+            <input type="submit" value="Google Search" />
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

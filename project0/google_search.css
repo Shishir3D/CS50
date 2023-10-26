@@ -1,6 +1,65 @@
-.searchbox {
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+.google_logo, .barandbutton, .searchbutton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.searchbutton {
   background-color: #f8f9fa;
-  color: blue;
+  font-size: 14px;
+  color: #202124;
+  top: 155%;
+}
+.searchbutton:hover {
+  border: 1px solid gray;
+}
+
+.searchbox {
+  border: 1px solid black;
+}
+.searchbox input {
+  width: 300px;
+  height: 20px;
+}
+.searchboxhover {
+  border: 1px solid gray;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.image_search_redirect {
+  padding-right: 20px;
+  margin-left: 20px;
+}
+.image_search_redirect a {
+  color: #202124;
+}
+
+.advanced_search_redirect {
+  margin-right: 20px;
+}
+.advanced_search_redirect a {
+  color: #202124;
+}
+
+.google_logo {
+  border: 0px solid black;
+  margin-top: -25%;
 }
 
 /*# sourceMappingURL=google_search.css.map */
