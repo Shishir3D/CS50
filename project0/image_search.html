@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Search</title>
-</head>
-<body>
-  This is image search
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Google Search</title>
+    <link rel="stylesheet" href="google_search.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <div class="image_search_redirect">
+          <a href="image_search.html">Image Search</a>
+        </div>
+        <div class="advanced_search_redirect">
+          <a href="advanced_search.html">Advanced Search</a>
+        </div>
+      </div>
+
+      <div class="barandbutton">
+        <div class="google_logo">
+          <img src="google_logo.png" alt="Google" />
+          <div class="image_text">image</div>
+        </div>
+
+        <form action="https://www.google.com/search" method="GET">
+          <div class="searchbox">
+            <input type="text" name="q" placeholder="Search..." />
+          </div>
+          <div class="searchbutton">
+            <input type="submit" value="Google Search" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
