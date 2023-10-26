@@ -1,0 +1,22 @@
+%messages{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 5px;
+}
+
+.success {
+  @extend %messages;
+  background-color: greenyellow;
+}
+
+.warning {
+  @extend %messages;
+  background-color: orange;
+}
+
+.error {
+  @extend %messages;
+  background-color: red;
+}
