@@ -4,16 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Advanced Search</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-      }
-      .sub-heading {
-        color: #d93025;
-        font-size: 20px;
-        margin-left: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="advanced_search.css" />
   </head>
 
   <body>
@@ -29,7 +20,24 @@
     <div class="main-box">
       <form action="/search" method="GET" name="f">
         <div class="find-pages">
-          <span>find pages with...</span>
+          <span>Find pages with...</span>
+        </div>
+        <div class="input-options">
+          <div class="first-line">
+            <div class="all-these-words">
+              <label for="xX4UFf">all these words:</label>
+            </div>
+            <div class="first-input-box-div">
+              <input
+                class="first-input-box"
+                value=""
+                autofocus="autofocus"
+                id="xX4UFf"
+                name="as_q"
+                type="text"
+              />
+            </div>
+          </div>
         </div>
       </form>
     </div>

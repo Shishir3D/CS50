@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.sub-heading {
+  color: #d93025;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.main-box {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+
+.find-pages {
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  font-size: 16px;
+  min-height: 42px;
+  font-weight: 500;
+  color: #333;
+  vertical-align: middle;
+}
+
+.input-options {
+  min-width: 167px;
+  width: 16%;
+  font-size: 16px;
+  min-height: 42px;
+  font-weight: 500;
+  color: #333;
+  vertical-align: middle;
+}
+
+.first-input-box {
+  display: inline-block;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+}
+
+/*# sourceMappingURL=advanced_search.css.map */
