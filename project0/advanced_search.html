@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advanced Search</title>
-</head>
-<body>
-  This is Advanced Search!
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Search</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .sub-heading {
+        color: #d93025;
+        font-size: 20px;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="heading" style="margin-top: 10px">
+      <div style="padding: 8px">
+        <img src="google_logo.svg" />
+      </div>
+    </div>
+    <div style="margin: 25px 35px">
+      <div class="sub-heading">Advanced Search</div>
+    </div>
+    <div style="border-bottom: 1px solid #ebebeb"></div>
+    <div class="main-box">
+      <form action="/search" method="GET" name="f">
+        <div class="find-pages">
+          <span>find pages with...</span>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

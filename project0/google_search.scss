@@ -25,7 +25,6 @@ body {
   background: none;
   padding: 4px;
   border-radius: 5px;
-  // margin-left: -50%;
   margin-top: -16%;
   border: 2px solid $search_color;
   background-color: $search_color;
@@ -54,8 +53,10 @@ body {
     padding-left: 10%;
     display: grid;
     grid-template-columns: auto;
+    border: 1px solid rgb(181, 181, 181);
   }
 }
+
 .heading {
   display: flex;
   flex-wrap: wrap;
