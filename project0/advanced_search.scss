@@ -31,7 +31,12 @@ body {
   color: #333;
   vertical-align: middle;
 }
-.first-input-box {
+.first-input-box,
+.second-input-box,
+.third-input-box,
+.fourth-input-box,
+.fifth-one-input-box,
+.fifth-two-input-box {
   display: inline-block;
   border-radius: 1px;
   border: 1px solid #d9d9d9;
@@ -39,4 +44,20 @@ body {
   font-size: 13px;
   height: 25px;
   padding: 1px 8px;
+}
+.fifth-input-box-div {
+  display: table;
+  width: 100%;
+}
+.fifth-one-input-box-div {
+  display: table-cell;
+  padding-right: 16px;
+  width: 100%;
+  text-align: left;
+}
+.fifth-two-input-box-div {
+  display: table-cell;
+  padding-left: 16px;
+  width: 100%;
+  text-align: left;
 }
