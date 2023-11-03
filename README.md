@@ -1,2 +1,2 @@
 # CS50
-repo for my cs50 projects
+repo for my cs50 projects.
