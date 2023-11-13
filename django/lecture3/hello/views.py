@@ -8,4 +8,6 @@ def shishir(request):
 def bob(request):
     return HttpResponse("<h1 style='color:red'>Hello Bob!</h1>")
 def greet(request, name):
-    return HttpResponse(f"<h1 style='color:red'>Hello {name.upper()}!</h1>")
+    return render(request, "hello/greet.html", {
+        "name" : name.capitalize()
+    })
