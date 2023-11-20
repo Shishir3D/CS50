@@ -9,4 +9,4 @@ def index(request):
     
 def newyearcheck():
     dateAndTime = datetime.datetime.now()
-    return dateAndTime.month == 1     and dateAndTime.day == 1
+    return dateAndTime.month == 1 and dateAndTime.day == 1
