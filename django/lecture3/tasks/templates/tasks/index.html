@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tasks</title>
-    <style>
-        .task{
-            font-size: 20px;
-            color: red;
-            font-weight: bold;
-            text-align: left;
-            margin-right: 900px;
-            background-color: greenyellow;
-        }
-    </style>
-</head>
+{% extends "tasks/layout.html" %}
+
+ {% block body %}  <!-- block is a reserved keyword of django and body is a variable--> 
+
 <body>
    {% for task in tasks %} 
     <li class="task"> {{ task }} </li>
    {% endfor %} 
+   <br>
+   <a href="{% url 'tasks:addtask' %}" >
+    <button>Add New Task</button>
+   </a>
 </body>
-</html>
+
+{% endblock %}

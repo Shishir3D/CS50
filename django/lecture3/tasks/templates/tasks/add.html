@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tasks</title>
-</head>
+{% extends "tasks/layout.html" %} <!-- extends is a reserved keyword of django and layout.html is the name of the file -->
+
+{% block body %}
+
 <body>
-    <h1>Add a task</h1>
     <form>
         <input type="text" name="task">
         <input type="submit">
     </form>
+    <br>
+    <a href="{% url 'tasks:index' %}">
+        <button>View Tasks</button>
+    </a>
 </body>
+
+{% endblock %}
