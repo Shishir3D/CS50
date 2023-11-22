@@ -7,7 +7,7 @@
     <li class="task"> {{ task }} </li>
    {% endfor %} 
    <br>
-   <a href="{% url 'tasks:addtask' %}" > <!-- if "index" is only written instead of "tasks:addtask" then there is a change of name space collision happening.
+   <a href="{% url 'tasks:add' %}" > <!-- if "index" is only written instead of "tasks:addtask" then there is a change of name space collision happening.
     In this case a "name space collision" is when "addtask.html" of "newyear" app is displayed instead of "addtask.html" of "tasks" app. -->
     <button>Add New Task</button>
    </a>
