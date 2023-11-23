@@ -27,7 +27,7 @@ body{
 }
 .box1, .box2, .box3, .box4{
     position: absolute;
-    width: 65%;
+    width: 405px;
     height: 15%;
     margin-left: 130px ;
 }
@@ -47,27 +47,36 @@ body{
     position: absolute;
     margin-left: 130px;
     margin-top:-20px;
-    width: 40%;
+    width: 180px;
     height: 15%;
 }
 .box6{
     position: absolute;
-    margin-left: 256px;
+    margin-left: 243px;
     margin-top:-20px;
-    width: 40%;
+    width: 180px;
     height: 15%;
+}
+.to{
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 460px;
 }
 .submit{
     position: absolute;
-    background-color: blue;
+    background-color: #357ae8;
     border: rgb(0, 0, 156);
     color: white;
     padding: 3px 10px;
+    padding: 7px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
-    margin-left:524px;
+    margin-left:559px;
     margin-top: 5px;;
+}
+.submit:hover{
+    background-color: #0b57d0;
 }
