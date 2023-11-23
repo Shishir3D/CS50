@@ -1,130 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Advanced Search</title>
-    <link rel="stylesheet" href="advanced_search.css" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Search</title>
+  <link rel="stylesheet" href="advanced_search.css">
+</head>
+<body>
 
-  <body>
-    <div class="heading" style="margin-top: 10px">
-      <div style="padding: 8px">
-        <img src="google_logo.svg" />
+  <div class="head">
+    <div class="google-logo">
+      <img src="google_logo.svg">
+    </div>
+    <div class="advanced-search">
+      Advanced Search
+    </div>
+    <div class="grey-line"></div>
+  </div>
+
+  <div class="body">
+
+    <div class="line1">Find pages with...</div>
+    <div class="line2">all these words:</div>
+    <div class="line2">this exact word or phrase:</div>
+    <div class="line2">any of these words:</div>
+    <div class="line2">none of these words:</div>
+    <div class="line2">numbers ranging from:</div>
+    <form action="http://google.com/search">
+
+      <div class="box1">
+        <input class="box1" type="text" name="as_q">
       </div>
-    </div>
-    <div style="margin: 25px 35px">
-      <div class="sub-heading">Advanced Search</div>
-    </div>
-    <div style="border-bottom: 1px solid #ebebeb"></div>
-    <div class="main-box">
-      <form action="/search" method="GET" name="f">
-        <div class="find-pages">
-          <span>Find pages with...</span>
-        </div>
-        <div class="input-options">
-          <div class="first-line">
-            <div class="all-these-words">
-              <label for="xX4UFf">all these words:</label>
-            </div>
-            <div class="first-input-box-div">
-              <input
-                class="first-input-box"
-                value=""
-                autofocus="autofocus"
-                id="xX4UFf"
-                name="as_q"
-                type="text"
-              />
-            </div>
-          </div>
-          <div class="second-line">
-            <div class="this-exact-word">
-              <label for="xX4UFf">this exact word or phrase:</label>
-            </div>
-            <div class="second-input-box-div">
-              <input
-                class="second-input-box"
-                value=""
-                autofocus="autofocus"
-                id="xX4UFf"
-                name="as_q"
-                type="text"
-              />
-            </div>
-          </div>
-          <div class="third-line">
-            <div class="any-of-these-words">
-              <label for="xX4UFf">any of these words:</label>
-            </div>
-            <div class="third-input-box-div">
-              <input
-                class="third-input-box"
-                value=""
-                autofocus="autofocus"
-                id="xX4UFf"
-                name="as_q"
-                type="text"
-              />
-            </div>
-          </div>
-          <div class="fourth-line">
-            <div class="none-of-these-words">
-              <label for="xX4UFf">none of these words:</label>
-            </div>
-            <div class="fourth-input-box-div">
-              <input
-                class="fourth-input-box"
-                value=""
-                autofocus="autofocus"
-                id="xX4UFf"
-                name="as_q"
-                type="text"
-              />
-            </div>
-          </div>
-          <div class="fifth-line">
-            <div class="numbers-ranging-from">
-              <label for="xX4UFf">numbers ranging from:</label>
-            </div>
-            <div class="fifth-input-box-div">
-              <div class="fifth-one-input-box-div">
-                <input
-                  class="fifth-one-input-box"
-                  value=""
-                  autofocus="autofocus"
-                  id="xX4UFf"
-                  name="as_q"
-                  type="text"
-                />
-              </div>
-              <div
-                style="
-                  display: table-cell;
-                  width: 40px;
-                  padding-right: 6px;
-                  padding-left: 6px;
-                  text-align: center;
-                  font-size: 13px;
-                  color: #202124;
-                "
-              >
-                to
-              </div>
-              <div class="fifth-two-input-box-div">
-                <input
-                  class="fifth-two-input-box"
-                  value=""
-                  autofocus="autofocus"
-                  id="xX4UFf"
-                  name="as_q"
-                  type="text"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </body>
+      <div class="box2">
+        <input class="box2" type="text" name="as_epq">
+      </div>
+      <div class="box3">
+        <input class="box3" type="text" name="as_oq">
+      </div>
+      <div class="box4">
+        <input  class="box4" type="text" name="as_eq">
+      </div>
+      <div class="box5">
+        <input  class="box5" type="text" name="as_nlo">
+      </div>
+      <div class="box6">
+        <input  class="box6" type="text" name="as_nhi">
+      </div>
+
+      <div class="submitt">
+        <input class="submit" type="submit" value="Advanced Search">
+      </div>
+
+    </form>
+  </div>
+
+</body>
 </html>
