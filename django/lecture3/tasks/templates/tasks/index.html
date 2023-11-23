@@ -5,6 +5,8 @@
 <body>
    {% for task in tasks %} 
     <li class="task"> {{ task }} </li>
+   {% empty %}
+      <li>No Tasks</li>
    {% endfor %} 
    <br>
    <a href="{% url 'tasks:add' %}" > <!-- if "index" is only written instead of "tasks:addtask" then there is a change of name space collision happening.
